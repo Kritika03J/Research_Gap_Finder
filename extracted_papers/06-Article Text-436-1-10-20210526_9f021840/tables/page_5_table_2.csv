@@ -1,0 +1,4 @@
+,,using K-Nearest Neighbor Classifier,,,,
+Class,TP,FP,Precision,Recall,F-,ROC
+,Rate,Rate,,,Measure,Area
+1,0.964,0.234,0.899,0.964,0.931,0.878

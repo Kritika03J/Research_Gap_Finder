@@ -1,0 +1,3 @@
+classiﬁer.,AP,Accuracy,Sensitivity,Speciﬁcity
+First SVM,0.405,0.794,0.507,0.866
+Second SVM,0.470,0.805,0.533,0.872

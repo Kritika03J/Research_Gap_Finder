@@ -1,0 +1,4 @@
+,,,using SVM classifier,,,
+Class,TP,FP,Precision,Recall,F-,ROC
+,Rate,Rate,,,Measure,Area
+1,0.986,0.109,0.951,0.986,0.968,0.946

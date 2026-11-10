@@ -1,0 +1,181 @@
+{
+  "base_model": "allenai/scibert_scivocab_uncased",
+  "labels": [
+    "NO_RELATION",
+    "Benchmark-For",
+    "Compare-With",
+    "Evaluated-With",
+    "Part-Of",
+    "SubClass-Of",
+    "SubTask-Of",
+    "Synonym-Of",
+    "Trained-With",
+    "Used-For"
+  ],
+  "id2label": {
+    "0": "NO_RELATION",
+    "1": "Benchmark-For",
+    "2": "Compare-With",
+    "3": "Evaluated-With",
+    "4": "Part-Of",
+    "5": "SubClass-Of",
+    "6": "SubTask-Of",
+    "7": "Synonym-Of",
+    "8": "Trained-With",
+    "9": "Used-For"
+  },
+  "label2id": {
+    "NO_RELATION": 0,
+    "Benchmark-For": 1,
+    "Compare-With": 2,
+    "Evaluated-With": 3,
+    "Part-Of": 4,
+    "SubClass-Of": 5,
+    "SubTask-Of": 6,
+    "Synonym-Of": 7,
+    "Trained-With": 8,
+    "Used-For": 9
+  },
+  "entity_types": [
+    "Method",
+    "Task",
+    "Dataset"
+  ],
+  "subj_open": {
+    "Method": "[SUBJ-METHOD]",
+    "Task": "[SUBJ-TASK]",
+    "Dataset": "[SUBJ-DATASET]"
+  },
+  "obj_open": {
+    "Method": "[OBJ-METHOD]",
+    "Task": "[OBJ-TASK]",
+    "Dataset": "[OBJ-DATASET]"
+  },
+  "subj_close": "[/SUBJ]",
+  "obj_close": "[/OBJ]",
+  "max_len": 512,
+  "dropout": 0.1,
+  "allowed_triples": [
+    [
+      "Dataset",
+      "Dataset",
+      "Compare-With"
+    ],
+    [
+      "Dataset",
+      "Dataset",
+      "SubClass-Of"
+    ],
+    [
+      "Dataset",
+      "Dataset",
+      "Synonym-Of"
+    ],
+    [
+      "Dataset",
+      "Method",
+      "Evaluated-With"
+    ],
+    [
+      "Dataset",
+      "Method",
+      "Used-For"
+    ],
+    [
+      "Dataset",
+      "Task",
+      "Benchmark-For"
+    ],
+    [
+      "Dataset",
+      "Task",
+      "Used-For"
+    ],
+    [
+      "Method",
+      "Dataset",
+      "Evaluated-With"
+    ],
+    [
+      "Method",
+      "Dataset",
+      "Trained-With"
+    ],
+    [
+      "Method",
+      "Dataset",
+      "Used-For"
+    ],
+    [
+      "Method",
+      "Method",
+      "Compare-With"
+    ],
+    [
+      "Method",
+      "Method",
+      "Part-Of"
+    ],
+    [
+      "Method",
+      "Method",
+      "SubClass-Of"
+    ],
+    [
+      "Method",
+      "Method",
+      "Synonym-Of"
+    ],
+    [
+      "Method",
+      "Method",
+      "Trained-With"
+    ],
+    [
+      "Method",
+      "Method",
+      "Used-For"
+    ],
+    [
+      "Method",
+      "Task",
+      "Trained-With"
+    ],
+    [
+      "Method",
+      "Task",
+      "Used-For"
+    ],
+    [
+      "Task",
+      "Method",
+      "Used-For"
+    ],
+    [
+      "Task",
+      "Task",
+      "Compare-With"
+    ],
+    [
+      "Task",
+      "Task",
+      "SubTask-Of"
+    ],
+    [
+      "Task",
+      "Task",
+      "Synonym-Of"
+    ],
+    [
+      "Task",
+      "Task",
+      "Used-For"
+    ]
+  ],
+  "scirex_to_scier": {
+    "Method": "Method",
+    "Task": "Task",
+    "Material": "Dataset",
+    "Metric": null
+  }
+}

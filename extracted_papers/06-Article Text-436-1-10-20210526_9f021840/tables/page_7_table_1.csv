@@ -1,0 +1,3 @@
+Ref,Comparison of Related Work,,,,,
+,Dataset,Feature No.,Feature Selection,Feature Extraction,Classifier,Result
+Roy et al[34],CT scan images,-,SURF (Speeded Up Robust Features),-,random forest algorithm and SVM classification,94.5%

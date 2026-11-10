@@ -1,0 +1,3 @@
+Instances (322),True Positive (ç),True Negative (€),False Positive (∂),False Negative (§)
+KNN,178,102,21,21
+SVM,193,123,6,0

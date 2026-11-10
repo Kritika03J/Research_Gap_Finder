@@ -1,0 +1,4 @@
+SVM model,Training set,Specificity,Sensitivity,Accuracy,Youden’s index
+Model 5,144 + 100,0.8034,0.51,0.8028,0.3134
+Model 6,169 + 100,0.6099,0.99,0.6107,0.5999
+Model 7,196 + 100,0.6886,1,0.6893,0.6886

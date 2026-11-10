@@ -1,0 +1,10 @@
+Instances (141),Testing (%),
+,KNN,SVM
+CA,83.69,97.16
+MCR,16.31,2.84
+Sensitivity,91.67,100
+Specificity,71.93,92.31
+F1-Score,87.01,97.80
+PPV,82.80,95.70
+NPV,85.42,100
+FPR,28.07,7.69

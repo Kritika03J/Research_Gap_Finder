@@ -1,0 +1,10 @@
+Instances (322),Training (%),
+,KNN,SVM
+CA,86.96,98.14
+MCR,13.04,1.86
+Sensitivity,89.45,100
+Specificity,82.93,95.35
+F1-Score,89.45,98.47
+PPV,89.45,96.98
+NPV,82.93,100
+FPR,17.07,4.65

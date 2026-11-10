@@ -1,0 +1,9 @@
+,Benign,Malignant,class
+C4.5,438,20,Benign
+,14,227,Malignant
+SVM,446,12,Benign
+,9,232,Malignant
+NB,436,22,Benign
+,6,235,Malignant
+k-NN,445,13,Benign
+,20,221,Malignant

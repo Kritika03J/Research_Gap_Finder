@@ -1,0 +1,4 @@
+,USING CONVOLUTIONAL NEURAL NETWORK,,,,,
+Class,TP,FP,Precision,Recall,F-,ROC
+,Rate,Rate,,,Measure,Area
+1,0.906,0.031,0.984,0.906,0.944,0.978

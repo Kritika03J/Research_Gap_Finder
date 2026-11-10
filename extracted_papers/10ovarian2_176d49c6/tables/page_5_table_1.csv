@@ -1,0 +1,5 @@
+Model,Training,Testing
+,Accuracy (%),Accuracy (%)
+CNN [21],90.02,88.09
+Dense Net [22],93.4,91.5
+Proposed Model,98.14,97.16

@@ -1,0 +1,4 @@
+SVM model,Specificity,Sensitivity,Accuracy,Youden’s index
+Model 5,0.7599,0.5714,0.7596,0.3313
+Model 6,0.5898,0.8571,0.5903,0.4469
+Model 7,0.6449,1,0.6456,0.6449
