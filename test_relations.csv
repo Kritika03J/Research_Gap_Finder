@@ -1,0 +1,6 @@
+subject,subject_type,relation,object,object_type,confidence,subject_page,object_page,context
+Deep learning methods,Method,Used-For,image classification,Task,1.0,1,1,Deep learning methods are widely used for image
+Convolutional neural networks,Method,Evaluated-With,ImageNet dataset,Dataset,0.9996,1,1,Convolutional neural networks are evaluated on the ImageNet dataset for image
+Convolutional neural networks,Method,Used-For,image recognition tasks,Task,0.9041,1,1,Convolutional neural networks are evaluated on the ImageNet dataset for image
+ImageNet dataset,Dataset,Benchmark-For,image recognition tasks,Task,1.0,1,1,evaluated on the ImageNet dataset for image
+transfer learning,Method,Used-For,classification,Task,0.9831,2,2,The proposed method uses transfer learning . The experiments demonstrate improved classification

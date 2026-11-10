@@ -1,0 +1,16 @@
+streamlit
+openai
+python-dotenv
+chromadb
+pymupdf
+pdfplumber
+pandas
+pillow
+pytesseract
+transformers
+torch
+numpy
+pysbd
+tqdm
+gdown
+networkx

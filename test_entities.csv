@@ -1,0 +1,8 @@
+entity,type,page,start_word,end_word,sentence_id
+Deep learning methods,Method,1,0,3,0
+image classification,Task,1,7,9,0
+Convolutional neural networks,Method,1,10,13,2
+ImageNet dataset,Material,1,17,19,3
+image recognition tasks,Task,1,20,23,3
+transfer learning,Method,2,28,30,5
+classification,Task,2,35,36,6
